@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,15 +39,15 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -18071,15 +18071,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </classes>
 <parts>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="BAT46">
+<attribute name="ALTERNATIV" value="1/2 BAT54S"/>
 <attribute name="REICHELT" value="BAT 46"/>
 </part>
 <part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="BAT46">
+<attribute name="ALTERNATIV" value="1/2 BAT54S"/>
 <attribute name="REICHELT" value="BAT 46"/>
 </part>
 <part name="D3" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="BAT46">
+<attribute name="ALTERNATIV" value="1/2 BAT54S"/>
 <attribute name="REICHELT" value="BAT 46"/>
 </part>
 <part name="D4" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="BAT46">
+<attribute name="ALTERNATIV" value="1/2 BAT54S"/>
 <attribute name="REICHELT" value="BAT 46"/>
 </part>
 <part name="D5" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="BAT46">
@@ -18134,7 +18138,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="REICHELT" value="X7R-2,5 10N"/>
 </part>
 <part name="C8" library="capacitor-wima" deviceset="C" device="5/11" value="10u">
+<attribute name="ALTERNATIV" value="SMD 10uF Keramik"/>
 <attribute name="CONRAD" value="450662-62"/>
+<attribute name="REICHELT" value="X7R-G1206 10/16"/>
 </part>
 <part name="C9" library="capacitor-wima" deviceset="C" device="2.5/2" value="1n">
 <attribute name="REICHELT" value="X7R-2,5 1,0N"/>
@@ -18142,7 +18148,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="C11" library="capacitor-wima" deviceset="C" device="2.5/2" value="100n">
 <attribute name="REICHELT" value="X7R-2,5 100N"/>
 </part>
-<part name="T2" library="transistor" deviceset="*-NPN-" device="TO92-EBC" value="BC547B">
+<part name="T2" library="transistor" deviceset="*-NPN-" device="TO92" value="BC547B">
 <attribute name="REICHELT" value="BC 547B"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
@@ -18165,7 +18171,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="REICHELT" value="VF 220/6,3 P-D"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="TO92-EBC" value="BC547B">
+<part name="T1" library="transistor" deviceset="*-NPN-" device="TO92" value="BC547B">
 <attribute name="REICHELT" value="BC 547B"/>
 </part>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="UD-10X10" value="820u">
@@ -18221,23 +18227,32 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ" device="" value="n.u."/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="0204/7" value="10K">
+<attribute name="REICHELT" value="METALL 10,0K"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-190.5" y="177.8" size="3.556" layer="91">EMS-ESP86266/12
+Rev 1.0c</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="-137.16" y="175.26">
 <attribute name="REICHELT" x="-137.16" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="ALTERNATIV" x="-137.16" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="-137.16" y="165.1" rot="R180">
 <attribute name="REICHELT" x="-137.16" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="ALTERNATIV" x="-137.16" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="-137.16" y="152.4">
 <attribute name="REICHELT" x="-137.16" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ALTERNATIV" x="-137.16" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="-137.16" y="142.24" rot="R180">
 <attribute name="REICHELT" x="-137.16" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="ALTERNATIV" x="-137.16" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="-127" y="147.32" rot="R90">
 <attribute name="REICHELT" x="-127" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
@@ -18292,6 +18307,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </instance>
 <instance part="C8" gate="G$1" x="-78.74" y="124.46" rot="R90">
 <attribute name="CONRAD" x="-78.74" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="ALTERNATIV" x="-78.74" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="REICHELT" x="-78.74" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="-78.74" y="119.38" rot="R90">
 <attribute name="REICHELT" x="-78.74" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
@@ -18329,21 +18346,21 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="T1" gate="G$1" x="-154.94" y="106.68" rot="R90">
 <attribute name="REICHELT" x="-154.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="-147.32" y="91.44">
-<attribute name="REICHELT" x="-147.32" y="91.44" size="1.778" layer="96" display="off"/>
+<instance part="C4" gate="G$1" x="-147.32" y="93.98">
+<attribute name="REICHELT" x="-147.32" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="-154.94" y="91.44" rot="R270">
-<attribute name="REICHELT" x="-154.94" y="91.44" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R2" gate="G$1" x="-167.64" y="93.98" rot="R270">
+<attribute name="REICHELT" x="-167.64" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND3" gate="1" x="-154.94" y="83.82"/>
-<instance part="GND5" gate="1" x="-147.32" y="83.82"/>
-<instance part="C6" gate="G$1" x="-139.7" y="91.44">
-<attribute name="REICHELT" x="-139.7" y="91.44" size="1.778" layer="96" display="off"/>
+<instance part="GND3" gate="1" x="-167.64" y="86.36"/>
+<instance part="GND5" gate="1" x="-147.32" y="86.36"/>
+<instance part="C6" gate="G$1" x="-139.7" y="93.98">
+<attribute name="REICHELT" x="-139.7" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="-167.64" y="106.68" rot="MR0">
 <attribute name="REICHELT" x="-167.64" y="106.68" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND6" gate="1" x="-139.7" y="83.82"/>
+<instance part="GND6" gate="1" x="-139.7" y="86.36"/>
 <instance part="R1" gate="G$1" x="-162.56" y="58.42" rot="R90">
 <attribute name="REICHELT" x="-162.56" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -18354,7 +18371,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="MOD1" gate="G$1" x="-129.54" y="88.9">
 <attribute name="POLOLU" x="-129.54" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="-116.84" y="83.82"/>
+<instance part="GND8" gate="1" x="-116.84" y="86.36"/>
 <instance part="ESP1" gate="G$1" x="-132.08" y="60.96" rot="MR180">
 <attribute name="AI-THINKER" x="-132.08" y="60.96" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
@@ -18384,6 +18401,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="GND4" gate="1" x="-154.94" y="15.24" rot="MR0"/>
 <instance part="GND15" gate="1" x="5.08" y="68.58" rot="MR0"/>
 <instance part="SJ1" gate="1" x="-134.62" y="104.14" rot="R90"/>
+<instance part="R14" gate="G$1" x="-160.02" y="101.6">
+<attribute name="REICHELT" x="-160.02" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18590,7 +18610,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="MOD1" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-116.84" y1="91.44" x2="-116.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="91.44" x2="-116.84" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -18793,14 +18813,12 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-154.94" y1="104.14" x2="-154.94" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="-154.94" y1="99.06" x2="-154.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="101.6" x2="-167.64" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="99.06" x2="-154.94" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-154.94" y="99.06"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="101.6" x2="-165.1" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-167.64" y="101.6"/>
 </segment>
 </net>
 <net name="UBUCK" class="1">
@@ -18808,11 +18826,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="-149.86" y1="109.22" x2="-147.32" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="-147.32" y1="93.98" x2="-147.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="96.52" x2="-147.32" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-147.32" y="109.22"/>
 <pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="-139.7" y1="109.22" x2="-147.32" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="93.98" x2="-139.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="96.52" x2="-139.7" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-139.7" y="109.22"/>
 <label x="-147.32" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="MOD1" gate="G$1" pin="VIN"/>
@@ -19019,6 +19037,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="-134.62" y1="99.06" x2="-132.08" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+<wire x1="-154.94" y1="101.6" x2="-154.94" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -19030,4 +19055,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
