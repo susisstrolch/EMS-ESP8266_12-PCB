@@ -1,0 +1,256 @@
+* SPICE netlist aus EMS-ESP8266-12.sch
+* 10/19/15 9:00 AM
+***************************
+*
+*    Node  Net
+*
+*    0     GND
+*    1     +3V3
+*    2     ADC
+*    3     CH_PD
+*    4     EMS_RX
+*    5     EMS_TX
+*    6     GPIO0
+*    7     GPIO2
+*    8     GPIO4
+*    9     GPIO5
+*   10     GPIO12
+*   11     GPIO13
+*   12     GPIO14
+*   13     GPIO15
+*   14     N$1
+*   15     N$2
+*   16     N$3
+*   17     N$4
+*   18     N$5
+*   19     N$6
+*   20     N$7
+*   21     N$8
+*   22     N$9
+*   23     N$10
+*   24     N$12
+*   25     N$15
+*   26     N$17
+*   27     REST
+*   28     RXD
+*   29     TXD
+*   30     UBUCK
+*   31     UEMS
+*   32     UREF
+*   33     URXD
+*   34     UTXD
+*
+***************************
+
+* +3V31
+* supply symbol dropped
+
+* +3V32
+* supply symbol dropped
+
+* +3V33
+* supply symbol dropped
+
+* +3V34
+* supply symbol dropped
+
+* C1
+C1  1 0 220u
+
+* C2
+C2  27 0 100p
+
+* C3
+C3  3 0 1n
+
+* C4
+C4  30 0 820u
+
+* C5
+C5  14 15 68p
+
+* C6
+C6  30 0 820u
+
+* C7
+C7  19 0 1.5n
+
+* C8
+C8  20 22 10u
+
+* C9
+C9  20 24 1n
+
+* C10
+C10  4 0 10n
+
+* C11
+C11  0 1 100n
+
+* C12
+C12  23 0 1u
+
+* D1
+D1  14 31 BAT46
+
+* D2
+D2  0 14 BAT46
+
+* D3
+D3  15 31 BAT46
+
+* D4
+D4  0 15 BAT46
+
+* D5
+D5  0 31 BAT46
+
+* D6
+D6  32 0 1N4148
+
+* EMS
+EMS  21 17 691102710002
+
+* ESP1
+ESP1  2 3 0 6 7 9 8 10 11 12 13 27 27 33 34 1 ESP-12ESP-12
+
+* EXT.PORT
+EXT.PORT  0 30 0 13 7 6 8 9 2 3 12 10 11 1 27 31 Ext
+
+* GND1
+* supply symbol dropped
+
+* GND2
+* supply symbol dropped
+
+* GND3
+* supply symbol dropped
+
+* GND4
+* supply symbol dropped
+
+* GND5
+* supply symbol dropped
+
+* GND6
+* supply symbol dropped
+
+* GND7
+* supply symbol dropped
+
+* GND8
+* supply symbol dropped
+
+* GND9
+* supply symbol dropped
+
+* GND10
+* supply symbol dropped
+
+* GND11
+* supply symbol dropped
+
+* GND12
+* supply symbol dropped
+
+* GND13
+* supply symbol dropped
+
+* GND14
+* supply symbol dropped
+
+* GND15
+* supply symbol dropped
+
+* GND16
+* supply symbol dropped
+
+* GND17
+* supply symbol dropped
+
+* GND18
+* supply symbol dropped
+
+* IC1A
+IC1A  22 24 18 LM393N
+
+* IC1B
+IC1B  32 4 25 LM393N
+
+* IC1P
+IC1P  1 0 LM393N
+
+* L1
+L1  17 14 4.7uH
+
+* L2
+L2  15 21 4.7uH
+
+* LED1
+LED1  31 26 3mm
+
+* MOD1
+MOD1  16 0 30 1 D24V3F3
+
+* PROGRAM
+PROGRAM  -1 28 29 -2 -3 0 61300611121
+* Warning: Unconnected Pins !
+
+* R1
+R1  27 1 4k7
+
+* R2
+R2  26 0 10K
+
+* R3
+R3  3 1 4k7
+
+* R4
+R4  31 19 470R
+
+* R5
+R5  31 19 470R
+
+* R6
+R6  20 31 10K
+
+* R7
+R7  20 32 360R
+
+* R8
+R8  1 25 4K7
+
+* R9
+R9  22 32 47K
+
+* R10
+R10  24 32 10K
+
+* R11
+R11  24 0 100K
+
+* R12
+R12  1 18 4K7
+
+* R13
+R13  18 5 100
+
+* R14
+R14  23 26 4.7k
+
+* SJ1
+SJ1  16 30 n.u.
+
+* SV1
+SV1  33 5 29 28 4 34 Mode
+
+* T1
+T1  23 31 30 BC547B
+
+* T2
+T2  25 19 0 BC547B
+
+* UPLD
+UPLD  0 6 Upload
+
+.end
